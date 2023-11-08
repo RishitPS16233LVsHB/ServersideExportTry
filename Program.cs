@@ -40,6 +40,7 @@ namespace ServerSideExportTry
             }
 
             // this is license based but we can use NonCommercial one to solve our problem
+            // non commercial option is based on 5th version of EPPlus and provides unlimited use to Excel export and many styling options
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
             using (ExcelPackage pack = new ExcelPackage())
             { 

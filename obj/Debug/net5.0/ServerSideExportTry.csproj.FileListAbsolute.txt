@@ -56,3 +56,9 @@ D:\ServerSideExportTry\ServerSideExportTry\obj\Debug\net5.0\ref\ServerSideExport
 D:\ServerSideExportTry\ServerSideExportTry\bin\Debug\net5.0\BouncyCastle.Crypto.dll
 D:\ServerSideExportTry\ServerSideExportTry\bin\Debug\net5.0\itextsharp.dll
 D:\ServerSideExportTry\ServerSideExportTry\bin\Debug\net5.0\itextsharp.xmlworker.dll
+D:\ServerSideExportTry\ServerSideExportTry\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\ServerSideExportTry\ServerSideExportTry\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\ServerSideExportTry\ServerSideExportTry\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\ServerSideExportTry\ServerSideExportTry\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\ServerSideExportTry\ServerSideExportTry\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ServerSideExportTry\ServerSideExportTry\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

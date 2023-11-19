@@ -7,6 +7,9 @@ using iTextSharp.text;
 using iTextSharp.text.pdf;
 using iTextSharp.tool.xml;
 using System.Data.Common;
+using GemBox.Document;
+
+
 
 namespace ServerSideExportTry
 {
@@ -14,6 +17,10 @@ namespace ServerSideExportTry
     {
         static void Main(string[] args)
         {
+
+            ComponentInfo.SetLicense("FREE-LIMITED-KEY");
+            DocumentModel.Load("Hello_world.docx").Save("output1.pdf");
+            return;
             Console.WriteLine("Hello World!");
             
             DataTable dataTable = new DataTable("sample Data table");
@@ -61,6 +68,11 @@ namespace ServerSideExportTry
             string outputPath = "output.pdf";
 
             GeneratePdfFromDataTable(dataTable, outputPath);
+
+
+
+
+
             Console.WriteLine("Excel and PDF generated successfully.");
             Console.Read();
         }
